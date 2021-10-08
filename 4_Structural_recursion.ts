@@ -50,6 +50,10 @@
     foo(1, 2, 3, 42)
 }
 
+/**
+ * SHow contextual typing in F#
+ */
+
 // Let's try our validation trick with function types
 {
     type Fn = (...args: any[]) => any

@@ -25,7 +25,7 @@ type User2 = {
 type User3 = Omit<User, 'name'> & { name: number }
 
 /**
- * I purposely did not mention interfaces, because they are open to modifications. MIght be extended but no reduced
+ * I purposely did not mention interfaces, because they are open to extensions.
  */
 interface Foo {
     age: number
